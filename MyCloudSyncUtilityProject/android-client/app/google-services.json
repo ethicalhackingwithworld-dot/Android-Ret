@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1071645764594",
+    "project_id": "android-ret",
+    "storage_bucket": "android-ret.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071645764594:android:17e7cdb52ba7fd4488596b",
+        "android_client_info": {
+          "package_name": "com.example.cloudutility"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeyODF5kNSXE92s4G75kpFqKq7q5SfpYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

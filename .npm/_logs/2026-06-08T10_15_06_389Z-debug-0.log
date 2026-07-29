@@ -1,0 +1,42 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.16.0
+2 info using node@v24.15.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/discord-music-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-06-08T10_15_06_389Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-06-08T10_15_06_389Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly allow-scripts no package.json at prefix Invalid package.json: JSONParseError: Unexpected token "P" (0x50), "[PASTE THE "... is not valid JSON while parsing '[PASTE THE package.json CONTENT HERE]
+12 silly allow-scripts '
+13 silly packumentCache heap:1087897600 maxSize:271974400 maxEntrySize:135987200
+14 verbose stack JSONParseError: Invalid package.json: JSONParseError: Unexpected token "P" (0x50), "[PASTE THE "... is not valid JSON while parsing '[PASTE THE package.json CONTENT HERE]
+14 verbose stack '
+14 verbose stack     at parse (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:19:21)
+14 verbose stack     at PackageJson.fromJSON (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:162:22)
+14 verbose stack     at PackageJson.load (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:157:17)
+14 verbose stack     at async PackageJson.normalize (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:117:5)
+14 verbose stack     at async #initTree (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:280:34)
+14 verbose stack     at async Arborist.buildIdealTree (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:175:7)
+14 verbose stack     at async Promise.all (index 1)
+14 verbose stack     at async Arborist.reify (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:112:5)
+14 verbose stack     at async Install.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/install.js:157:5)
+14 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:193:9)
+15 error code EJSONPARSE
+16 error JSON.parse Invalid package.json: JSONParseError: Unexpected token "P" (0x50), "[PASTE THE "... is not valid JSON while parsing '[PASTE THE package.json CONTENT HERE]
+16 error JSON.parse '
+17 error JSON.parse Failed to parse JSON data.
+17 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+18 silly unfinished npm timer reify 1780913709111
+19 silly unfinished npm timer reify:loadTrees 1780913709114
+20 silly unfinished npm timer idealTree:init 1780913709122
+21 verbose cwd /data/data/com.termux/files/home/discord-music-bot
+22 verbose os Linux 6.6.89-android15-8-g5a0ffb447c1d-ab13771415-4k
+23 verbose node v24.15.0
+24 verbose npm  v11.16.0
+25 verbose exit 1
+26 verbose code 1
+27 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2026-06-08T10_15_06_389Z-debug-0.log
